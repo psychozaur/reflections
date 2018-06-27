@@ -12,8 +12,15 @@ The staging area is an intermediary state where files aren't commited yet as the
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can always add or remove changes from the staging area to make sure your commit isn't too large. Git diff command allows to easily monitor changes saved in working directory, staging area and commits. Just don't forget to use 'git checkout master'. It's useful somehow.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+
+Branches definitely help exploring new, experimental functionalities without the risk of making irreversible changes. The naming system also helps organizing those extra options you'd like to explore.
+
 
 How do the diagrams help you visualize the branch structure?
 
