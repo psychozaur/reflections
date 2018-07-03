@@ -24,8 +24,22 @@ Branches definitely help exploring new, experimental functionalities without the
 
 How do the diagrams help you visualize the branch structure?
 
+They make seeing the points where branches were created much, much easier. You can also track unreachable commits with a diagram (?).
+
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+We represent it the way the diagram do because two merged branches have a common commit, but git follows the timestamps of merged branches. Though we can always check out or reset... Abort merge... Yeah, that merge conflict unnerved me.
+
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic
+Pros: It's faster.
+Cons: Resolving conflicts is a bit tedious.
+Always manually
+Pros: User has more control over the merging process.
+Cons: It forces the user to manually commit when it's needless.
