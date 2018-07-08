@@ -23,7 +23,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Being able to predict if there's a merge conflict? Or maybe to avoid the loss of unconnected branches?
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
