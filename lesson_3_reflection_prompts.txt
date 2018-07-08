@@ -1,7 +1,10 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    It's most convenient when you're cooperating with other people on a larger project. 
+    I believe it's also okay to use it on text files like mentioned "choose-your-own-adventure".
+    However, when working alone on some multi-file project maybe writing code in one's favorite IDE
+    and then commiting locally is more convenient.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
