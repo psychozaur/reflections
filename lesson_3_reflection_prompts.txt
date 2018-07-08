@@ -34,4 +34,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a separate has a much more open, non-definite quality to it.
+	If you're writing a simple program it's probably a good idea to not branch out of master,
+	but when you want to explore some different feature it's good to branch out.
+	You can also use branches and pull requests efficiently when collaborating with people rather than cluttering the master branch.
